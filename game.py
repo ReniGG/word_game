@@ -35,7 +35,6 @@ class Bot:
             print("No available letters left.")
             return None  # or raise an exception if needed
         self.guess = random.choice(self.available_letters)
-        self.guess = random.choice(self.available_letters)
         return self.guess
 
     def record_guesses(self, l_guess):
